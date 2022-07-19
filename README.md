@@ -14,5 +14,6 @@ screen -S frp
 ```
 ```
 sudo chmod -R 777 frps
+sudo chmod -R 777 frps.ini
 ./frps -c ./frps.ini
 ```
