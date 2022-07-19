@@ -7,9 +7,7 @@ iptables -P FORWARD ACCEPT
 iptables -P OUTPUT ACCEPT
 iptables -F
 iptables-save
-apt-get update && apt install screen -y
-screen -S frp
-
+apt-get update && apt install screen -y && screen -S frp
 ```
 ```
 sudo chmod -R 777 frps
