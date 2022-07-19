@@ -13,6 +13,6 @@ apt-get update && apt install screen -y
 screen -S frp
 ```
 ```
-chmod 755 frps
+sudo chmod -R 777
 ./frps -c ./frps.ini
 ```
