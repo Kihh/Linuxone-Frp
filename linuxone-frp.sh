@@ -1,3 +1,4 @@
+sudo -i
 wget https://github.com/Kihh/Linuxone-Frp/raw/main/frps_linux_s390x && mv frps_linux_s390x frps
 wget https://raw.githubusercontent.com/Kihh/Linuxone-Frp/main/frps.ini
 iptables -P INPUT ACCEPT
