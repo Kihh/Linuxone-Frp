@@ -1,9 +1,9 @@
 #!/bin/bash
+clear
 echo "-------------------------------"
 echo "LinuxONE Frp V1.0 Made by Kihh"
 echo "Github:Kihh/Linuxone-Frp"
 echo "-------------------------------"
-clear
 root_check(){
     [[ $EUID != 0 ]] && echo -e "当前非ROOT账号(或没有ROOT权限)，无法继续操作，请输入sudo -i登录ROOT账号后重试！" && exit 1
 }
