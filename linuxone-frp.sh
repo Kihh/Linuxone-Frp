@@ -9,4 +9,4 @@ sudo chmod -R 777 frps
 sudo chmod -R 777 frps.ini
 apt-get update && apt install screen -y
 screen -dmS linuxonefrp ./frps -c ./frps.ini
-echo "内网穿透开启完成，服务监听端口7000"
+echo "Frp服务开启完成，服务监听端口7000"
